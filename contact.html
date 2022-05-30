@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="display: flex; justify-content: space-around; align-items: center;">
+            <img src="resourses/logo.png" alt="логотип" style="height: 120px;">
+            <button onclick="window.location.href = 'index.html';" class="but" >Главная</button>
+            <button onclick="window.location.href = 'about.html';" class="but" >О нас</button>
+            <button onclick="window.location.href = 'price.html';" class="but" >Прайс</button>
+            <button onclick="window.location.href = 'contact.html';" class="but" >Контакты</button>
+        </div>
+        <hr>
+       <center>
+        <h2>Контактная информация</h2><br>
+        <div style="border: 2px black solid;margin-left: 450px;margin-right: 450px;">
+            <br>
+        <h3>Адрес: 125363 г.Москва ул.Нелидовская д.13 к.1 Пом.37 </h3><br>   
+        <h3>Телефон/Факс: +7 900-578-34-78</h3><br>
+        </div>
+        <h3></h3>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/nelidovskaya_ulitsa_13k1/Z04YcgNiSkcHQFtvfXR1dH9kZA==/?ll=37.442320%2C55.845370&mode=search&sctx=ZAAAAAgAEAAaKAoSCUwc0wL1PkJAETz4%2B%2BQYQktAEhIJ4OjNa0L%2FEUARIKPhwD%2FU9z8iBgABAgMEBSgKOABAxVNIAWIrcmVhcnI9c2NoZW1lX0xvY2FsL0dlby9FbmFibGVCZWF1dHlGaWx0ZXI9MWoCcnWdAc3MTD2gAQCoAQC9AUUtVL3CAQYAAAAAAADqAQDyAQD4AQCCAijQndC10LvQuNC00L7QstGB0LrQsNGPINGD0LvQuNGG0LAsIDEz0LoxigIAkgIAmgIMZGVza3RvcC1tYXBz&sll=37.442320%2C55.845370&sspn=0.014475%2C0.004633&text=%D0%9D%D0%B5%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2013%D0%BA1&utm_medium=mapframe&utm_source=maps&z=17.09" style="color:#eee;font-size:12px;position:absolute;top:14px;">Нелидовская улица, 13к1 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUFe0rb0D" width="845" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div><center>
+            <br><br>
+            <div id="feedback-form">
+                <h1 class="header ">Обратная связь</h1>
+                
+                <div>
+                  <form>
+                     
+                    <input type="text" name="email" placeholder="Email"></input>
+                    <input type="text" name="name" placeholder="Имя"></input>
+                    <label for="feedback-notify">Позвоните мне</label>
+                    <br>
+                    <input type="checkbox" id="feedback-notify" name="notify">
+                    <input type="text" id="feedback-phone" name="phone" placeholder="Номер телефона"></input>
+                    <button type="submit">Отправить</button>
+
+                  </form>
+                </div>
+            </div>
+        </body>
+</html>
